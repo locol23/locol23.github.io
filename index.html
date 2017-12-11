@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="jp">
+<head>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Yoshitaka Terazawa's Portfolio</title>
+</head>
+<body>
+
+  <section id="top">
+    <canvas id="canvas"></canvas>
+  </section>
+
+  <section id="profile" class="page">
+    <h1>About</h1>
+    <div class="message textCenter">
+      社内の業務改善にて自分が課題だと思ったことをWeb画面で解決し、人に喜んでもらった経験から、<br>
+      今後はより多くの人に使用して喜んでもらえるBtoC向けWebサービスを開発したいと考えています。
+    </div>
+    <article>
+      <h2>Profile</h2>
+      <div class="body">
+        <table>
+          <tr>
+            <td>Name</td>
+            <td>寺澤 佳高（Terazawa Yoshitaka）</td>
+          </tr>
+          <tr>
+            <td>Mail</td>
+            <td>yoshitaka.terazawa[at]gmail.com
+                <span class="small">（メールアドレスの[at]は＠記号に置き換えて下さい）</span>
+            </td>
+          </tr>
+          <tr>
+            <td>SNS</td>
+              <td>
+                <a class="underline" href="https://github.com/locol23" target="_blank">Github</a>,&nbsp;
+                <a class="underline" href="http://twitter.com/locol23" target="_blank">Twitter</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </article>
+  </section>
+
+  <section id="articles" class="page">
+		<h1>Articles</h1>
+    <div class="message textCenter">
+      開発したアプリケーションを紹介させて頂きます。
+    </div>
+
+    <article>
+      <h2>Web Applications</h2>
+      <ul class="body col2 articleList">
+        <li>
+          <h3>試験環境管理Webアプリ</h3>
+          <p>試験環境管理用に作成したWebアプリです。試験環境の管理に課題があり、解決する為に、React + Redux + Node.js + MongoDBを用いて開発しました。</p>
+        </li>
+        <li>
+          <h3>ChatTool</h3>
+          <p>チャットWebアプリです。開発ネットワークがインターネットと分断されており、コミュニケーションが取れない状態であった為、Angular ＋ WebSocket + Node.jsを用いて開発しました。</p>
+        </li>
+      </ul>
+      <ul class="body col2 articleList">
+        <li>
+          <h3>社内オペレータ向けWebアプリ</h3>
+          <p>社内オペレータ向けに作成したWebアプリです。既存のWebアプリの使い勝手が良くなかった為、Angular + SpringMVC + liferay + SQLServerを用いて開発しました。</p>
+        </li>
+      </ul>
+    </article>
+  </section>
+  
+  <script src="js/index.js"></script>
+  </body>
+</html>
