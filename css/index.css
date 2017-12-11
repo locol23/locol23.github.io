@@ -1,6 +1,6 @@
 body{
   color:#333;font-size:14px;
-  margin:10px;
+  margin:0px;
   padding:0
 }
 
@@ -15,7 +15,8 @@ h1{
 }
 
 h2{
-  font-size:28px
+  font-size:28px;
+  margin:10px
 }
 
 td{
